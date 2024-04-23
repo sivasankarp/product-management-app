@@ -1,0 +1,16 @@
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 200px;
+    /* Ensure consistent height for each item */
+}
+
+.action-buttons {
+    margin-top: 10px;
+}
