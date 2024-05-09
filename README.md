@@ -51,3 +51,13 @@ our app is ready to be deployed!
 ### `npm run eject`
 
 Added the screenshots for more reference.
+
+
+To create a docker container by running 
+
+### `$ docker run -d -it –rm -p [host_port]:[container_port] –name [container_name] [image_id/image_tag] `
+
+
+Verify whether the container has been created successfully by running
+### `$ docker container ps `
+
